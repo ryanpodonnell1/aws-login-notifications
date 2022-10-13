@@ -1,0 +1,3 @@
+name: aws-login-notifications
+description: sets up infra to notify personnel on account login
+runtime: go

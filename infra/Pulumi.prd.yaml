@@ -1,0 +1,6 @@
+secretsprovider: awskms://alias/pulumi-secrets?region=us-east-1
+encryptedkey: AQICAHgODWaoodO7Grrhlr6P7VBFAb5Eopv/rwuM+mqvCPvhuAGeiRl4cyGtA0PTRz3YsoU5AAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMvWrdhBmjjtKL+i5BAgEQgDtFtCOJz5h7Fdem13DckHGuHxxwW75+kQDBv18kXmD59FaNxDatiyS5KT23u1wANK+GEhysknPnP4JMrg==
+config:
+  aws-login-notifications:email:
+    secure: v1:AHiG1/mFCBTq8+RS:Kby6Rm61954ZwwWnJyjORYyEtXNFJv3BrUzlyxa0JpJ84cAoyRRyYPfEGMU=
+  aws:region: us-east-1
