@@ -8,7 +8,8 @@ Sets up minimal monitoring for personal AWS account to send an email notificatio
 1. replace `Pulumi.prd.yaml` file with your own to set secrets provider/region. 
 1. Set a secret of `email`:
 
-        ```bash
-        pulumi config set --secret email <email>
-        ```
+    ```bash
+    pulumi config set --secret email <email>
+    ```
+
 1. `pulumi up`
